@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-// styles
+import { Jumbotron, Button } from 'reactstrap';
+
 import '../src/assets/css/bootstrap.min.css';
 import '../src/assets/css/now-ui-kit.css';
-
-import { Jumbotron, Button } from 'reactstrap';
 
 import * as serviceWorker from './serviceWorker';
 
