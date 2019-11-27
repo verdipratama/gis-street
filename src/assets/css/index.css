@@ -1,0 +1,26 @@
+body {
+  /* background: darkred; */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.content-left {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  /*-ms-transform: translate(-50%, -50%);*/
+  /*-webkit-transform: translate(-50%, -50%);*/
+  /*transform: translate(-50%, -50%);*/
+  color: #ffffff;
+  width: 100%;
+  max-width: 880px;
+  text-align: left;
+}
+.page-header[filter-color='red'] {
+  background: linear-gradient(0deg, rgba(255, 0, 0, 0.54), rgba(255, 23, 0, 0.65));
+}
