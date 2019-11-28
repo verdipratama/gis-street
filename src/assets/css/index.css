@@ -1,3 +1,24 @@
+.loader {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  border: 7px solid rgba(253, 29, 29, 1);
+  border-left: 7px solid;
+  animation: load 1s infinite linear;
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .home-back {
   background: rgb(131, 58, 180);
   background: linear-gradient(

@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import Navigation from '../src/components/layout/Navigation';
+import Home from './components/home/Home';
 
 import '../src/assets/css/bootstrap.min.css';
 import '../src/assets/css/now-ui-kit.css';
 import '../src/assets/css/index.css';
 
 import * as serviceWorker from './serviceWorker';
-import Home from './components/layout/Home';
 
 export default class App extends Component {
   render() {
