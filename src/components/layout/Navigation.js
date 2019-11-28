@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <Navbar className="bg-danger" color="dark" expand="md" fixed="top" color-on-scroll="500">
       <div className="container">
-        <NavbarBrand href="/">Gis-street</NavbarBrand>
+        <NavbarBrand href="/">VP-DEV</NavbarBrand>
         <Nav navbar>
           <NavItem>
             <a href="#0" className="nav-link">

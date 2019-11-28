@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="wrapper">
       <div className="page-header clear-filter">
-        <div className="page-header-image">
+        <div className="page-header-image home-back">
           <div className="container row">
             <div className="container col-md-6 col-sm-12">
               <div className="content-left brand">
@@ -15,9 +15,9 @@ const Home = () => {
                   <strong>Sistem Informasi</strong>
                 </h1>
                 <h1 className="title-one">Database Infrastruktur Jalan Berbasis GIS</h1>
-                <h3 className="title-two">Provinsi ..... *dih kepo*</h3>
-                <a href="#0" className="btn btn-info">
-                  Login
+                <h3 className="title-two">Kota ..... *dih kepo*</h3>
+                <a href="#0" className="btn btn-primary btn-round">
+                  <i></i>Login
                 </a>
                 {/* <h5 className="category category-absolute">
                   made with{' '}
